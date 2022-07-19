@@ -3,7 +3,7 @@ import * as R from 'ramda';
 
 const useSettings = () => {
   const initialSettings = {
-    server: 'https://dionysos-test.yannlacroix.fr',
+    server: 'https://dionysos-test.yannlacroix.fr/api/v0',
   };
 
   enum SettingsActionList {
